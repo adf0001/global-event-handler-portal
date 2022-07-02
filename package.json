@@ -1,0 +1,23 @@
+{
+  "name": "global-event-handler-portal",
+  "version": "1.0.1",
+  "description": "call an element's GlobalEventHandler as a portal function.",
+  "main": "global-event-handler-portal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GlobalEventHandler",
+    "portal"
+  ],
+  "author": "fwg",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adf0001/global-event-handler-portal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adf0001/global-event-handler-portal/issues"
+  },
+  "homepage": "https://github.com/adf0001/global-event-handler-portal#readme"
+}
