@@ -31,7 +31,7 @@ Example
 //call an element's GlobalEventHandler as a portal function.
 var globalEventHandlerPortal = function (el, handlerName, arg1) {
 	var func;
-	if (func = el[handlerName]) {
+	if (func = el?.[handlerName]) {
 		return func.apply(el, Array.prototype.slice.call(arguments, 2));
 	}
 }
@@ -40,7 +40,7 @@ var globalEventHandlerPortal = function (el, handlerName, arg1) {
 var createGlobalEventHandlerPortal = function (handlerName) {
 	return function (el, arg1) {
 		var func;
-		if (func = el[handlerName]) {
+		if (func = el?.[handlerName]) {
 			return func.apply(el, Array.prototype.slice.call(arguments, 1));
 		}
 	}
